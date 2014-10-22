@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <script src="targil.js" ></script>
+		<style>
+     		.button{
+				width:30px;
+				height:30px;
+				font-weight:bold;
+				font-size:20px;
+				}
+			 .historyFrame ul {
+				border: 1px solid black;
+ 				height: 200px;    
+                list-style-type: none;
+				overflow-y: auto;				
+			 }
+		</style>   
+    </head>
+    
+    <body>
+	
+<!--	<div id="keyboard">    -->
+    <div id="keyboard">
+		<input type="text" style="width:200px;" id="screen" />
+	</div>
+	<div>
+	    <button  class="button" onclick="clicked('1')">1</button>
+		<button  class="button" onclick="clicked('2')">2</button>
+		<button  class="button" onclick="clicked('3')">3</button>
+		<button  class="button" onclick="clicked('4')">4</button>
+		<button  class="button" onclick="clicked('5')">5</button>
+		<button  class="button" onclick="clicked('6')">6</button>
+		<button  class="button" onclick="clicked('7')">7</button>
+		<button  class="button" onclick="clicked('8')">8</button>
+		<button  class="button" onclick="clicked('9')">9</button>
+		<button  class="button" onclick="clicked('0')">0</button>
+	</div>
+	<div>	
+		<button  class="button" onclick="clicked('q')">q</button>
+		<button  class="button" onclick="clicked('w')">w</button>
+		<button  class="button" onclick="clicked('e')">e</button>
+		<button  class="button" onclick="clicked('r')">r</button>
+		<button  class="button" onclick="clicked('t')">t</button>
+		<button  class="button" onclick="clicked('y')">y</button>
+		<button  class="button" onclick="clicked('u')">u</button>
+		<button  class="button" onclick="clicked('i')">i</button>
+		<button  class="button" onclick="clicked('o')">o</button>
+		<button  class="button" onclick="clicked('p')">p</button>
+		<button  class="button" onclick="clicked('[')">[</button>
+		<button  class="button" onclick="clicked(']')">]</button>
+		<button  class="button" onclick="clicked('\')">\</button>
+    </div>
+    <div>
+     	<button  class="button" onclick="clicked('a')">a</button>
+		<button  class="button" onclick="clicked('s')">s</button>
+		<button  class="button" onclick="clicked('d')">d</button>
+		<button  class="button" onclick="clicked('f')">f</button>
+		<button  class="button" onclick="clicked('g')">g</button>
+		<button  class="button" onclick="clicked('h')">h</button>
+		<button  class="button" onclick="clicked('j')">j</button>
+		<button  class="button" onclick="clicked('k')">k</button>
+		<button  class="button" onclick="clicked('l')">l</button>
+		<button  class="button" onclick="clicked(';')">;</button>
+		<button  class="button" onclick="clicked("''")">'</button>
+ 		<button                 onclick="enterPressed()">Enter</button>    
+    </div>
+	<div>
+	    <button  class="button" onclick="clicked('z')">z</button>
+		<button  class="button" onclick="clicked('x')">x</button>
+		<button  class="button" onclick="clicked('c')">c</button>
+		<button  class="button" onclick="clicked('v')">v</button>
+	    <button  class="button" onclick="clicked('b')">b</button>
+		<button  class="button" onclick="clicked('n')">n</button>
+		<button  class="button" onclick="clicked('m')">m</button>
+		<button  class="button" onclick="clicked(',')">.</button>
+		<button  class="button" onclick="clicked('/')">/</button>
+	</div>
+	<div class="historyFrame">
+		<div><h1>History</h1></div>
+		<ul></ul>
+	</div>
+	
+	<div class="historyFrame">
+	</div>
+    </body>
+</html>    
