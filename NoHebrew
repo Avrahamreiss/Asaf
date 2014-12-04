@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>  -->
+<!--  <script src="buttons_script.js"></script>  -->
+
+
+ <style type="text/css">
+	   
+	   div {
+				height:10px;    
+				width: 78%;
+				float: left
+		}
+           .father {
+				background-color:#770077;
+				border: 3px solid black;  
+				height: 200px;
+		   }
+		   
+p.sansserif 
+            {  font-family: Arial, Helvetica, sans-serif; font-style: italic; font: 25px Arial; font-weight: bold; color:white; text-align:center;  }
+p.Narkisim  
+			{ font-family: Narkisim, Arial;  font-style:italic;  font: 25px Narkisim; text-align:center; color:yellow   }
+p.Narkisim2  
+			{ font-family: Narkisim, Arial;  font-style:italic;  ;font: 25px Narkisim; text-align:center; color:pink } 
+
+	
+			
+<!----------------------------------------------------------------------------------------------------------->
+	
+		</style>
+<!---------------------------------------------------------------------->		
+    </head>
+    
+    <body>
+	
+	<div style="background-color:white; width:70%"> </div>
+	
+	<img src="DSC00431Elah_Shi w txt.jpg" alt="jQuery" style="float:right; width:430px; height:600px">
+	
+	<div class="father">
+            <p class="sansserif">SHI REISS Legal Enterprises</p>
+		    <p class="Narkisim">View Video Films on a wide range of legal subjects סרטי וידיאו במגוון נושאים שונים </p>
+			<br>
+			<p class="Narkisim2">   Our contact details:  email:__________________________  phone:____________ Mail:_____________________________ :פרטי קישור   </p
+			 
+			
+	</div>
+		
+  		
+		
+            
+    </body>
+</html>   
+
